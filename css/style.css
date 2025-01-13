@@ -114,4 +114,21 @@ img {
   text-align: center;
   width: 100%;
 }
+.btn-download {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #007bff; /* Warna biru */
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-download:hover {
+  background-color: #0056b3; /* Warna biru lebih gelap saat hover */
+  transform: scale(1.05); /* Sedikit perbesaran saat hover */
+}
 
