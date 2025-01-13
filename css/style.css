@@ -1,0 +1,117 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F7FBFC;
+}
+.wrapper{
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+.logo a{
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  font-family: overpass;
+  color: #769FCD;
+  
+}
+.menu {
+  float: right;
+  
+}
+nav{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #F7FBFC;
+  z-index: 1;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+nav ul li {
+  float: left;
+}
+
+nav ul li a{
+  color: #769FCD;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  
+}
+
+section{
+  margin: auto;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.kolom {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.kolom .deskripsi {
+  font-family: 'comic sans';
+  font-weight: 1000;
+  font-size: 35px;
+  margin-bottom: 10px;
+  color: #769FCD;
+  width: 100%;
+  line-height: 40px;
+  text-align: justify;
+}
+p {
+  font-family: 'comic sans';
+  font-weight: 200;
+  font-size: 20px;
+  color: black;
+  width: 100%;
+  line-height: 30px;
+  text-align: justify;
+}
+h2 {
+  font-family: 'comic sans';
+  text-align: justify;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h3 {
+  font-family: 'comic sans';
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30px;
+}
+img {
+  margin-top: 30px;
+  width: 50%;
+}
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
